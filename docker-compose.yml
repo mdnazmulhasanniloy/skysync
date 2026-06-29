@@ -19,7 +19,7 @@ services:
 
 
   dashboard:
-    image: skysyncapp/skysync_admin:latest
+    image: nazmulhasn/skysync_admin:latest
     container_name: skysync_admin
     restart: unless-stopped 
     environment:
