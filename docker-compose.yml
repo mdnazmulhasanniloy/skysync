@@ -1,6 +1,6 @@
 services:
   backend:
-    image: skysyncapp/skysync_backend:latest
+    image: nazmulhasn/skysync_backend:latest
     container_name: skysync_backend
     restart: unless-stopped
     env_file: .env
